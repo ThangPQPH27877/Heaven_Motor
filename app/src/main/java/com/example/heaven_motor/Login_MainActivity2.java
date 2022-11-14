@@ -32,7 +32,7 @@ public class Login_MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_login_main2);
 
         userDAO = new UserDAO(this);
-        ducdvph19780_Sign_out
+
         UserName = findViewById(R.id.edUserName);
         Pass = findViewById(R.id.edPassword);
         checkBox = findViewById(R.id.checkBox);
@@ -45,7 +45,7 @@ public class Login_MainActivity2 extends AppCompatActivity {
             users = new Users();
             users.setId("Admin");
             users.setName("Nguyễn Văn A");
-            users.setDate("18");
+            users.setDate(18);
             users.setAddress("Hà Nội");
             users.setCCCD("0351582258");
             users.setPasswork("Admin");
